@@ -1,0 +1,155 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>DuelMania 2 - Downloads</title>
+<style type="text/css">
+body, td { font-family : Tahoma ; font-size : 0.8em; }
+textarea { background-color : #FFFFFF; border : 1px solid #000000; color : #000000; }
+a:link { text-decoration : underline ; color : #27302B ; }
+a:visited { text-decoration : underline ; color : #000000 ; }
+a:hover { text-decoration : none ; color : #484848 ; }
+.input { background-color : #FFFFFF; border : 1px solid #000000; color : #000000; font-family : Courier new, monospace; }
+.hullu {
+	border-top: 3px #000000 solid; 
+	border-left: 1px #000000 solid; 
+	border-right: 1px #000000 solid; 
+	border-bottom: 3px #000000 solid;
+}
+</style>
+<SCRIPT LANGUAGE="JavaScript" type="text/javascript">
+function upd1()		{ document.upd.src="gfx/updates1.gif" }
+function upd2()		{ document.upd.src="gfx/updates2.gif" }
+function rul1()		{ document.rul.src="gfx/rules1.gif" }
+function rul2()		{ document.rul.src="gfx/rules2.gif" }
+function res1()		{ document.res.src="gfx/results1.gif" }
+function res2()		{ document.res.src="gfx/results2.gif" }
+function dow1()		{ document.dow.src="gfx/downloads1.gif" }
+function dow2()		{ document.dow.src="gfx/downloads2.gif" }
+</SCRIPT>
+</head>
+<body bgcolor="#4D4D4D">
+
+<table align="center" border="0" cellpadding="0" cellspacing="3" bgcolor="#000000">
+<tr>
+<td bgcolor="#707070">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td colspan="2" width="714" height="55" background="gfx/ylabar.gif">&nbsp;</td>
+</tr><tr>
+<td background="gfx/duelmania.jpg" width="411" height="114">&nbsp;</td>
+<td rowspan="2" width="303" height="156" background="gfx/ukko.jpg">&nbsp;</td>
+</tr><tr>
+<td><a href="./" onMouseOver="upd1()" onMouseOut="upd2()"><img src="gfx/updates2.gif" name="upd" border="0"></a><a href="rules.html" onMouseOver="rul1()" onMouseOut="rul2()"><img src="gfx/rules2.gif" name="rul" border="0"></a><a href="results.html" onMouseOver="res1()" onMouseOut="res2()"><img src="gfx/results2.gif" name="res" border="0"></a><a href="downloads.html"><img src="gfx/downloads1.gif" border="0"></a></td>
+</tr><tr>
+<td colspan="2" width="714" height="76" background="gfx/alabar.gif">
+<table border="0" cellspacing="0" cellpadding="2">
+<tr>
+	<td>
+		&nbsp;&nbsp;&nbsp;&nbsp;User login
+	</td>
+	<td>
+		&nbsp;&nbsp;&nbsp;&nbsp;Demos
+	</td>
+	<td>
+		&nbsp;&nbsp;&nbsp;&nbsp;<a href="index@aid=servers.html" style="font-weight: bold;">Servers</a>
+	</td>
+</tr>
+<tr>
+	<td>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index@aid=deadlines.html" style="font-weight: bold;">Deadlines</a>
+	</td>
+	<td>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index@aid=contact.html" style="font-weight: bold;">Contact</a>
+	</td>
+	<td>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Signup
+	</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+
+<table cellspacing="2" cellpadding="2" border="0" align="center">
+<tr>
+<td bgcolor="#898989" class="hullu" width="400"><b>Submitting demos</b></td>
+</tr>
+<tr>
+<td valign="top" width="500" bgcolor="#A0A0A0">
+<b>Demo uploading</b>
+<p>
+When we reach the 8th. finals it is required to have an admin present during your match. There will always -- to a certain extend -- be an admin available on #duelmania, to meet these requirements. The admin will make sure there is recorded a demo of the match (preferebly from both pov if there is not any MVD feature availble).
+<p>
+Before we reach the 8th. finals it is not required that you record any demos. We do however encourage people to do so anyway. As a sidenote I recommend people not to complain about Duelmania demos being posted of themself.
+<p>
+Here is a very short description on how you upload demos, and after a 'guide' for all the dimwits.
+<p>
+Allowed formats: MVD / QWZ -> both zipped with winzip.
+<p>
+Go to http://www.challenge-tv.com/demos/?upload=demo and fill out the form.
+<p>
+NOTE: In 'events' text-box type 'duelmania'.<br>
+NOTE: If its in MVD format please write MVD in 'pov' textbox)
+<p>
+Need help ? follow this Guide:
+<p>
+And here is a guide on how to actually succeed in getting a MVD / QWZ demo zipped and ready for upload.
+<p>
+If you are so lucky to play on a KTPRO server which supports MVD autorecording, you will need to download the demo.
+Use the command /cmd dlist to get a complete list of demos availble on the server:port, or you can search for a demo by typing /cmd demolist searchword.
+<p>
+Every demo got a number infront of it, and you simply type /cmd dl # in console to commence the download. Some servers support increased rate during download, to save some time.
+<p>
+NOTE: Demo recording is port sensitive. This means if were duelling on port 27501, you can not download the demo on port 27502, but ONLY on the port where the game was played.
+<p>
+If you, as most people, still use Qizmo to record, you need to take these meassurements to meet our requirements before commencing demoupload.
+Make sure the demo is in QWZ, if not you will have to convert it manually.
+Move the demo to your qizmo directory (same dir as qizmo.exe) and create a text document. Add the following: qizmo.exe -C *.qwd (NOTE: it has to be big C)
+save/close and rename the text document to eg. qwd_to_qwz.bat and run it.
+If you have not got windows 98 and need to boot 48 times during convert proccess, you should now be ready to ZIP the file with winzip and proceed to the upload page here.
+<p>
+If you have any problems, do not hesitate to msg an opped admin @ #duelmania - <a href="http://www.quakenet.org" target="_blank">quakenet</a>.
+<p>
+Enjoy!
+<p>
+</td>
+</tr>
+</table>
+
+<br><br>
+
+<table cellspacing="2" cellpadding="2" border="0" align="center">
+<tr>
+<td bgcolor="#898989" class="hullu" width="500" colspan="4"><b>Downloads</b></td>
+</tr>
+<tr>
+<td valign="top" bgcolor="#A0A0A0" width="250"><b>Players</b></td>
+<td valign="top" bgcolor="#A0A0A0" width="100"><b>Pov</b></td>
+<td valign="top" bgcolor="#A0A0A0" width="50"><b>Map</b></td>
+<td valign="top" bgcolor="#A0A0A0" width="50"><b>Round</b></td>
+</tr>
+
+<tr>
+<td valign="top" bgcolor="#A0A0A0">N/A</td>
+<td valign="top" bgcolor="#A0A0A0">N/A</td>
+<td valign="top" bgcolor="#A0A0A0">N/A</td>
+<td valign="top" bgcolor="#A0A0A0">N/A</td>
+</tr>
+
+<tr>
+<td valign="top" bgcolor="#A0A0A0" colspan="4" align="center">List all Duelmania&sup2; demos at challenge-tv!</td>
+</tr>
+</table>
+
+&copy;duelmania
+</td>
+</tr>
+</table>
+
+</body>
+</html>
